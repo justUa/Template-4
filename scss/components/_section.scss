@@ -1,0 +1,31 @@
+.section {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.silver-wrapper {
+    background-color: var(--main-light-color);
+}
+
+.wrapper-accent {
+    position: relative;
+}
+
+.wrapper-accent:before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%);
+    display: block;
+    height: 490px;
+    width: 100%;
+    top: 0;
+    left: 0px;
+}
+
+.wrapper-accent .container {
+    position: relative;
+}
+
+.wrapper-accent h2 {
+    color: var(--light-color);
+}

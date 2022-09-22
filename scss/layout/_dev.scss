@@ -1,0 +1,48 @@
+.dev__head {
+    padding-bottom: 90px;
+    border-bottom: 1px solid var(--main-color);
+    margin-bottom: 70px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.dev__left {
+    max-width: 489px;
+}
+
+.dev__left h2 {
+    margin-bottom: 60px;
+}
+
+.dev__left--big-title h2 {
+    font-size: 42px;
+}
+
+.dev__text {
+    margin-bottom: 42px;
+}
+
+.list-project {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list-project__top {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: baseline;
+}
+
+.list-project__top .icon {
+    font-size: 30px;
+    height: auto;
+    color: var(--accent-color);
+    margin-right: 20px;
+}
+
+.list-project__title {
+    color: var(--dark-color);
+    font-size: 36px;
+    line-height: 1.47;
+}

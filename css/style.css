@@ -1,0 +1,100 @@
+.logo {
+    font-family: serif;
+    font-size: 20px;
+    color: black;
+}
+
+.icon {
+    fill: currentColor;
+}
+
+.barbers__list {
+    
+}
+
+.header {
+
+}
+
+.logo span {
+    color: cornflowerblue;
+}
+
+
+
+.menu__row {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+}
+
+/* block */
+
+.menu {
+
+}
+
+/* end block */
+
+/* elem */
+
+.menu__item a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+/* end elem */
+
+/* mod */
+.menu__item--active  a{
+    color: orange;
+}
+/* end */
+
+/* logo mod */
+
+.logo--light {
+    color: white;
+}
+
+/* socials block */
+
+.socials {
+
+}
+
+/* end socials block */
+
+/* socials elem */
+
+.socials__item {
+
+}
+
+.social__link {
+
+}
+
+.social__icon {
+    
+}
+
+/* end social elem */
+
+/* socials mod */
+.socials--dark .social__link {
+    background-color: #2196F3;
+}
+
+.socials--dark .social__icon {
+    fill: white;
+}
+
+/* end socials mod */
